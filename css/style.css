@@ -3,12 +3,12 @@ html,body {
   padding: 0;
 }
 body {
-  background-color: #C1A878;
+  background-color:#99D699;
   font-family: 'Georgia', serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.45;
-  color: #685F5F;
+  color: black;
 }
 
 p {margin-bottom: 1.3em;}
@@ -22,12 +22,16 @@ h1, h2, h3, h4 {
 h1 {
   margin-top: 0;
   font-size: 2.074em;
-  color: rgb(54, 8, 8);
+  color: black;
 }
 
-h2 {font-size: 1.728em;}
+h2 {font-size: 1.728em;
+    text-align: center;
+}
 
-h3 {font-size: 1.44em;}
+h3 {font-size: 1.44em;
+    text-align: center;
+}
 
 h4 {font-size: 1.2em;}
 
@@ -52,7 +56,7 @@ a:hover {
 }
 
 .header {
-  background: #7F4F21;
+  background: #cccccc;
   padding-top: 1em;
   padding-bottom: 1em;
   margin-bottom: 1em;
